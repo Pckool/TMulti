@@ -1,0 +1,17 @@
+{
+  "name": "multi_stream",
+  "version": "1.0.0",
+  "description": "A web application used to host multi streams on an owned server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node  index.js",
+    "start": "node index.js"
+  },
+  "author": "TDefton",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "vue": "^2.6.8"
+  }
+}

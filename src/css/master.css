@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+html{
+  font-family: 'Roboto', sans-serif;
+}
+
+.butn{
+  border-radius: 2em;
+  padding: 0.7em 1.4em;
+  border-width: 0px;
+  cursor: pointer;
+  font-weight: 300;
+  outline: none;
+}
+.butn-twitch{
+  color: white;
+  background-color: #6441a5;
+
+}
