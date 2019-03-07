@@ -16,3 +16,7 @@ html{
   background-color: #6441a5;
 
 }
+.stream-player{
+  height: 480px;
+  width: 854px;
+}
