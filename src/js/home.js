@@ -27,6 +27,7 @@ $("#startMulti").on('click', () => {
   $('<iframe>', {
     src: `https://www.twitch.tv/embed/${streamer_1}/chat?darkpopout`,
     id:  'streamer-1-chat',
+    class: "stream-chat",
     frameborder: 0,
     scrolling: 'no'
   }).appendTo('.channel-1');
@@ -41,6 +42,7 @@ $("#startMulti").on('click', () => {
     $('<iframe>', {
       src: `https://www.twitch.tv/embed/${streamer_2}/chat?darkpopout`,
       id:  'streamer-2-chat',
+      class: "stream-chat",
       frameborder: 0,
       scrolling: 'no'
     }).appendTo('.channel-2');
